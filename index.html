@@ -6,43 +6,49 @@
         <title>Портфолио</title>
         <link rel="stylesheet" href="./css/reset.css">
         <link rel = "stylesheet" href="./css/main.css">
+        <link rel = "stylesheet" href="./css/media.css">
 </head>
 <body>
         <header class="header">
-        <div class="container">
+                <div class="container">
                         <div class="header-row">
                                 <img class="header-img" src="./img/photo.jpg" srcset="./img/photo@2x.jpg"></img>
                         
                                 <div class="header-desc">
                                         <h1 class="montserrat-bold header-title">Кирилл Ментель</h1>
                                         <p class="header-text montserrat-light">фрилансер, веб-разработчик, <br> создание сайтов</p>
-                                        
+                        
                                         <div class="header-btns">
-                                                <a href = "#portfolio" class="btn montserrat-regular">Портфолио</a>
-                                                <a href = "#contacts" class="btn-outline montserrat-regular">Контакты</a>
+                                                <a href="#portfolio" class="btn montserrat-regular">Портфолио</a>
+                                                <a href="#contacts" class="btn-outline montserrat-regular">Контакты</a>
                                         </div>
                                 </div>
-        </div>
+                </div>        
+                </div>
+                <video class="header-video" autoplay muted loop>
+                        <source type="video/mp4" src="./video_2025-03-29_15-59-59.mp4">
+                </video>
+                
         </header>
 
         <main>
                 <section class="portfolio">
                         <h1 class="portfolio-title montserrat-bold" id="portfolio">Портфолио</h1>
                         <img src="./img/портфолио/project-01.jpg" srcset="./img/портфолио/project-01@2x.jpg" class="portfolio-img">
-                        <p class="montserrat-regular project-01">Сайт магазина мебели</p>
+                        <p class="montserrat-regular portfolio-text">Сайт магазина мебели</p>
                         <img src="./img/портфолио/project-02.jpg" srcset="./img/портфолио/project-02@2x.jpg" class="portfolio-img">
-                        <p class="montserrat-regular project-02">Сайт туристического агентства</p>
+                        <p class="montserrat-regular portfolio-text">Сайт туристического агентства</p>
                         <img src="./img/портфолио/project-03.jpg" srcset="./img/портфолио/project-03@2x.jpg" class="portfolio-img">
-                        <p class="montserrat-regular project-03">Сайт жилого комплекса</p>
+                        <p class="montserrat-regular portfolio-text">Сайт жилого комплекса</p>
                 </section>
                 <section class="contacts">
                         <h1 id="contacts"class="montserrat-bold contacts-title">Контакты</h1>
                         <div class="contacts-btns">
                                 <a href="https://t.me/Kirilabr" target="_blank" class="montserrat-regular contacts-btn tg">
-                                        <img src="./img/подвал/telegram.svg">
+                                        <img src="./img/подвал/telegram.svg" class="icon">
                                         Написать в Telegram</a>
-                                <a href="https://vk.com/id799526732" target="_blank" class="montserrat-regular contacts-btn">
-                                        <img src="./img/подвал/vk.svg">
+                                <a href="https://vk.com/id799526732" target="_blank" class="montserrat-regular contacts-btn vk">
+                                        <img src="./img/подвал/vk.svg" class="icon">
                                         Связатся в Вконтакте</a>
                         </div>
                 </section>
